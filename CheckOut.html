@@ -1,0 +1,86 @@
+<!Doctype html>
+<html>
+<head>
+    <title> checkout</title>
+    <link rel="icon" href="https://icon-library.net/images/store-icon/store-icon-5.jpg" type="image/icon">
+    <link href="./index.css" rel="stylesheet">
+    <link href="./checkout.css" rel="stylesheet">
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,width=device-width">
+    <link rel="stylesheet" href="/slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="/slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/02439a4d2c.js"></script>
+</head>
+<body>
+    <header id="topbar">
+        <a id="title">SHOPLane</a>
+        <a href="#clothing" class="navAnchor">CLOTHING</a>
+        <a href="#accessories" class="navAnchor" >ACCESSORIES</a>
+        <div id="right">
+            <input id="search" type="search" name="search" placeholder="What are you looking for?"/>
+            <i class="fas fa-search"></i>
+            <a href="./CheckOut.html"><i class="fas fa-shopping-cart"></i></a>
+            <button id="count">0</button>
+            <i class="fas fa-user-circle"></i>
+
+        </div>
+    </header>
+    <div id="chckout_body">
+        <div id="chck_left">
+            <h3 id="checkout" class="Heading">CHECKOUT</h3>
+            <h4 id="total" class="Heading" style="font-size:24px;text-decoration:none;">TOTAL ITEMS : </h4>
+            <div id="list">
+
+            </div>
+        </div>
+        <div id="chck-right">
+            <div id="priceCard">
+                <h3 class="Heading" style="font-size: 26px;margin-left:0;font-weight:bold;">TOTAL AMOUNT</h3>
+                <h4 id="chckPrice" style="font-size:24px;margin-top:10px;">Price</h4>
+                <a href="./success.html"><button id="btnAdd" style="background-color:#404040">PLACE ORDER</button></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+            <div id="stores" style="width: 20%;">
+                <ul style="list-style: none;font-size:16px;">
+                    <h3>ONLINE STORES</h3>
+                    <li>MEN CLOTHING</li>
+                    <li>WOMEN CLOTHING</li>
+                    <li>MEN ACCESSORIES</li>
+                    <li>WOMEN ACCESSORIES</li>
+                </ul>
+            </div>
+            <div id="links" style="width: 20%;">
+                <ul style="list-style: none;font-size:16px;">
+                    <h3>HELPFUL LINKS</h3>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>CONTACTS</li>
+                </ul>
+            </div>
+            <div id="partners" style="width: 20%;">
+                <ul style="list-style: none;font-size:16px;">
+                    <h3>PARTNERS</h3>
+                    <li>PANTALOONS</li>
+                    <li>ZARA</li>
+                    <li>LEVIS</li>
+                    <li>UCB</li>
+                    <li>+MANY MORE</li>
+                </ul>
+            </div>
+            <div id="address" style="width: 20%;">
+                <ul style="list-style: none;font-size:16px;">
+                    <h3>ADDRESS</h3>
+                    <li>BUILDING 101</li>
+                    <li>CENTER AVENUE</li>
+                    <li>LA-902722</li>
+                    <li>UNITED STATES</li>
+                </ul>
+            </div>
+        </footer>
+<!-- JS INTEGRATION -->
+<script src="./common.js"></script>
+<script src="./checkout.js"></script>
+</body>
+</html>
