@@ -2,6 +2,8 @@
 {
     display: flex;
     justify-content: space-around;
+    padding-top:2%;
+    box-sizing: border-box;
 }
 #chck_left
 {
@@ -14,6 +16,7 @@
     margin-top:90px;
     height:auto;
     box-sizing: border-box;
+    margin-bottom:5%;
 }
 #priceCard
 {
